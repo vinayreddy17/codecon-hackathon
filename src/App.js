@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import MealFinder from './Form';
 
 function App() {
+  
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>GET YOUR RECEPIE</h1>
+  
+
+     <div id="form"> <MealFinder /> </div>
+        
+      
     </div>
   );
 }
